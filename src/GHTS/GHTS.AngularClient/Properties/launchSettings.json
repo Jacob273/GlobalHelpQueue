@@ -3,28 +3,25 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50064",
-      "sslPort": 44303
+      "applicationUrl": "http://localhost:50032",
+      "sslPort": 44381
     }
   },
-  "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "GHTS.API": {
+    "GHTS.AngularClient": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:50064"
+      "applicationUrl": "http://localhost:50032"
     }
   }
 }

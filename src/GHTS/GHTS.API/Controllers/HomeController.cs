@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GHTS.API.Controllers
 {
-    [Route("api")]
     [ApiController]
     public class HomeController : ControllerBase
     {
+        [Route("api")]
         [Route("")]
         public IActionResult Home()
         {
