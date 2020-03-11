@@ -301,3 +301,4 @@ src/GHTS/GHTS.AngularClient/..FrontentBuild/netcoreapp3.1/Microsoft.Extensions.O
 src/GHTS/GHTS.AngularClient/..FrontentBuild/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
 src/GHTS/GHTS.AngularClient/..FrontentBuild/netcoreapp3.1/Newtonsoft.Json.dll
 src/GHTS/GHTS.AngularClient/..FrontentBuild/netcoreapp3.1/Properties/launchSettings.json
+tools/vscode_extensions.list
