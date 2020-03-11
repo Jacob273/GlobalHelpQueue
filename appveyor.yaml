@@ -1,0 +1,10 @@
+init:
+  - cmd: ECHO Starting GHTS app building
+  - cmd: dir
+
+before_build:
+  - cmd: dir
+  - cmd: dotnet restore ./src/GHTS/GHTS.API/GHTS.API.csproj
+  - cmd: dotnet restore ./src/GHTS/GHTS.Common/GHTS.Common.csproj
+  - cmd: dotnet restore ./src/GHTS/GHTS.DTO/GHTS.DTO.csproj
+  - cmd: dotnet restore ./src/GHTS/GHTS.ICommon/GHTS.ICommon.csproj
