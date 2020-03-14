@@ -1,7 +1,6 @@
 <header>
   <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" *ngIf="navigationService.visible">
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">GHTS</a>
       <button class="navbar-toggler"
               type="button"
               data-toggle="collapse"
@@ -17,7 +16,17 @@
           <li class="nav-item"
               [routerLinkActive]="['link-active']"
               [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
+            <a class="nav-link text-dark" [routerLink]="['/tickets']">Lista zgłoszeń</a>
+          </li>
+          <li class="nav-item"
+          [routerLinkActive]="['link-active']"
+          [routerLinkActiveOptions]="{ exact: true }">
+          <a class="nav-link text-dark" [routerLink]="['/help']">Zgłoś potrzebę pomocy</a>
+        </li>
+          <li class="nav-item"
+            [routerLinkActive]="['link-active']"
+            [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link text-dark" [routerLink]="['/helper-registration']">Zostań pomocnikiem</a>
           </li>
         </ul>
       </div>

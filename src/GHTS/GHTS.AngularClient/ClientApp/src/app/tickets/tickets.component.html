@@ -1,1 +1,23 @@
-<p>tickets works!</p>
+<div class="container">
+<section class="mt-3">
+    <div class="row">
+        <h2 class="col-12">Zgłoszenia</h2>
+        <div class="col-12">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span (click)="inputSearch.focus()" class="input-group-text"><i class="fa fa-search"></i></span>
+                </div>
+                <input #inputSearch type="text" name="title" class="form-control" placeholder="Szukaj..." />
+            </div>
+        </div>
+        <div class="col-12 mt-2">
+           <div class="btn btn-dark">Lokalizacja <i class="fas fa-map-marker"></i></div>
+        </div>
+    </div>
+    <div class="row" >
+        <div class="col-12">
+            <app-ticket-item-card></app-ticket-item-card>
+        </div>
+    </div>
+</section>
+</div>

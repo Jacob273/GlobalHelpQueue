@@ -4,13 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { TicketsRoutingModule } from './tickets-routing.module';
 import { TicketsComponent } from './tickets.component';
+import { TicketItemCardComponent } from './ticket-item-card/ticket-item-card.component';
 
 const routes: Routes = [
   { path: '', component: TicketsComponent }
 ];
 
 @NgModule({
-  declarations: [TicketsComponent],
+  declarations: [TicketsComponent, TicketItemCardComponent],
   imports: [
     CommonModule,
     TicketsRoutingModule,
