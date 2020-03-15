@@ -8,3 +8,4 @@ before_build:
   - cmd: dotnet restore ./src/GHTS/GHTS.Common/GHTS.Common.csproj
   - cmd: dotnet restore ./src/GHTS/GHTS.DTO/GHTS.DTO.csproj
   - cmd: dotnet restore ./src/GHTS/GHTS.ICommon/GHTS.ICommon.csproj
+  - cmd: dotnet restore ./src/GHTS/GHTS.AngularClient/GHTS.AngularClient.csproj
