@@ -4,7 +4,7 @@
         <div class="p-2"><strong>{{ticket.id}}</strong></div>
         <div class="p-2 flex-fill flex-grow">{{ticket.title}}
         </div>
-        <div class="p-2 bg-warning align-self-start"><strong>&nbsp; &nbsp;{{ticket.priority}}</strong></div>
+        <div class="p-2 align-self-start" [ngClass]="{'bg-danger': ticket.priority=='3', 'bg-warning': ticket.priority=='2', 'bg-success': ticket.priority=='1'}"><strong>&nbsp; &nbsp;{{ticket.priority}}</strong></div>
     </div>
 
     <!-- Dodatkowy opis do zgloszenia -->

@@ -32,6 +32,10 @@ export class TicketsComponent implements OnInit {
         title: 'Prosze o pomoc dla Babci - jesli jest ktos w okolicy Warszawy.',
         description: 'Super by bylo gdyby ktos jeszcze dowiózl wodę i leki! Uwaga ma goraczke i nie moze wyjść po zakupy. Proszę o pomoc.',
         priority: 3},
+        { id: '00005',
+        title: 'Prosze o wode.',
+        description: 'Super by bylo gdyby ktos jeszcze dowiózl wodę i leki! Uwaga ma goraczke i nie moze wyjść po zakupy. Proszę o pomoc.',
+        priority: 1},
     ];
 
     console.log(this.ticketsArray);
