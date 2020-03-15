@@ -1,1 +1,27 @@
-<p>ticket1</p>
+<!-- Drugie zgloszenie -->
+<div class="d-flex flex-row mt-3 ticket" (click)="show = !show">
+    <div class="p-2"><strong>00002</strong></div>
+    <div class="p-2 flex-fill flex-grow">Prosze o pomoc dla Dziadka - jesli jest ktos w okolicy
+        Warszawy.
+    </div>
+    <div class="p-2 bg-warning align-self-start"><strong>&nbsp; &nbsp;2</strong></div>
+</div>
+
+<!-- Dodatkowy opis do zgloszenia -->
+<div class="d-flex flex-row bg-light ticketInfo" [class.opened]="show">
+    <div class="p-2">
+        <strong>Kontakt: </strong>
+        <p>511 000 333</p>
+        <p>Janusz K</p>
+        <p>Szczecin<br>
+            71-634
+            Belgijska 15/5</p>
+    </div>
+    <div class="p-2 flex-fill"> <strong>Dodatkowe informacje:</strong>
+        <p>I fajnie by bylo gdyby ktos jeszcze dowiózl wodę i leki! 
+            Uwaga ma goraczke i nie moze wyjść po zakupy.
+            Proszę o pomoc.</p>
+    </div>
+    <div class="p-2 flex-fill align-self-start"><strong>Chcesz pomóc?</strong><button
+            class="btn btn-secondary btn-lg rounded-5 mt-2">Pomagam</button></div>
+</div>

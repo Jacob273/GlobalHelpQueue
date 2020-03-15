@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TicketItemCardComponent implements OnInit {
 
-  constructor() { }
+ show: boolean;
+
+  constructor() {
+    this.show = false;
+   }
 
   ngOnInit() {
   }

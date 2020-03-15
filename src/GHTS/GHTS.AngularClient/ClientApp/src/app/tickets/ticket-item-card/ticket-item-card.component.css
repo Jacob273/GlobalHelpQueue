@@ -1,0 +1,20 @@
+.ticket {
+    background: #cae0f8;
+}
+
+.ticket:hover {
+    background: #a4cdfa;
+}
+
+
+.ticketInfo{
+    background-color: #FFCC55;
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: ease-in-out 400ms max-height;
+}
+
+.ticketInfo.opened {
+    max-height: 500px;
+    transition: ease-in-out 600ms max-height;
+}
