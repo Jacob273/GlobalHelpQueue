@@ -11,18 +11,13 @@
             </div>
         </div>
         <div class="col-12 mt-2">
-           <div class="btn btn-dark">Lokalizacja <i class="fas fa-map-marker"></i></div>
+           <div class="btn btn-dark">Cała Polska <i class="fas fa-map-marker"></i> &nbsp; <i class="fas fa-angle-double-down"></i></div>
         </div>
     </div>
     <div class="row mt-2" >
         <div class="col-12">
             <app-ticket-header></app-ticket-header>
-            <app-ticket-item-card></app-ticket-item-card>
-            <app-ticket-item-card></app-ticket-item-card>
-            <app-ticket-item-card></app-ticket-item-card>
-            <app-ticket-item-card></app-ticket-item-card>
-            <app-ticket-item-card></app-ticket-item-card>
-            <app-ticket-item-card></app-ticket-item-card>
+            <app-ticket-item-card *ngFor="let ticket of ticketsArray" [ticket]="ticket"></app-ticket-item-card>
         </div>
     </div>
 </section>

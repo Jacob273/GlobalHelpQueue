@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Ticket } from 'src/app/models/ticket';
 
 @Component({
   selector: 'app-ticket-item-card',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TicketItemCardComponent implements OnInit {
 
- show: boolean;
+  @Input() ticket: Ticket;
+  show: boolean;
 
   constructor() {
     this.show = false;
