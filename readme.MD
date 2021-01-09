@@ -1,4 +1,4 @@
-Global Help Ticket System: 
+Global Help Ticket System prototype project to learn purposes: 
  
  Backend: asp.net core 3.1 + c# 
  
